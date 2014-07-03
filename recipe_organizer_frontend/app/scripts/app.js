@@ -21,7 +21,7 @@ angular
   .config(function ($routeProvider, RestangularProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/home.html',
         controller: 'MainCtrl'
       })
       .when('/about', {
